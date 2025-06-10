@@ -1,0 +1,11 @@
+@use '../variables' as vars;
+
+.footer {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  font-family: vars.$principalFont;
+  color: vars.$lilac-solid;
+  font-weight: 600;
+  background-color: vars.$yellow-transparent;
+  box-shadow: 0 -2px 5px vars.$yellow-transparent;
+}

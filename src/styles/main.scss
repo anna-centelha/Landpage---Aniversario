@@ -1,0 +1,19 @@
+@use 'variables' as vars;
+@use 'reset';
+@use 'components/header';
+@use 'components/info-block';
+@use 'components/footer';
+
+body {
+    background-color: vars.$yellow-transparent; 
+    font-family: vars.$principalFont;
+    overflow-x: hidden; 
+    color: vars.$grey-dark;
+    margin: 0; 
+    padding: 0; 
+}
+
+ul {
+    list-style: none; 
+    padding: 0;
+}

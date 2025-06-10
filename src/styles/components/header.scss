@@ -1,0 +1,46 @@
+@use '../variables' as vars;
+
+.header {
+  background-color: vars.$yellow-transparent;
+  font-family: vars.$principalFont;
+  padding: 2rem 1rem;
+  text-align: center;
+
+  &__container__title {
+    font-weight: 600;
+    font-size: 2rem;
+    color: vars.$lilac-solid;
+    margin-bottom: 1rem;
+  }
+
+  &__container__image img {
+    max-width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px vars.$lilac-transparent;
+  }
+
+  &__container__timer {
+    margin-top: 1.5rem;
+    font-weight: 400;
+    color: vars.$grey-dark;
+
+    .timer__container {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 0.5rem;
+
+      &__item {
+        background-color: vars.$lilac-transparent;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        font-weight: 600;
+        color: vars.$lilac-solid;
+        font-size: 1.2rem;
+        min-width: 50px;
+        text-align: center;
+        box-shadow: 0 0 5px vars.$lilac-transparent;
+      }
+    }
+  }
+}

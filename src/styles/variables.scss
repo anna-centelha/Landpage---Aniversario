@@ -1,0 +1,14 @@
+$principalFont: 'Quicksand', sans-serif;
+
+$lilac-transparent: #c775fa1a;      
+$yellow-transparent: #efe3791a;      
+$lilac-solid: #c775fa;
+$yellow-solid: #efe379;
+
+$grey1: #fefefe;
+$grey-dark: #333;
+$black: #000;
+
+$section-bg-light: lighten($yellow-solid, 10%);
+$section-bg-dark: $yellow-transparent;          
+$section-border-color: rgba($lilac-solid, 0.2); 
